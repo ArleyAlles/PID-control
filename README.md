@@ -5,4 +5,6 @@ Such code is divided into three parts:
 * 2-) **Curve_fit.py** -------> Here the parameters of first-order transfer function is obtained, usind curve_fit method from scipy
 * 3-) **PID.py** -------------> Code responsible for generating transfer function of closed loop system (by control library) and plot output of PID control system for a given pertubation of system. 
 
-OBS: For observation of PID control system, the user needs to set, manually, values for **Ki**, **Kp** and **Kd** 
+OBS: 
+* For observation of PID control system, the user needs to set, manually, values for **Ki**, **Kp** and **Kd** 
+* If user wants to add noise in the dataset, the option **hasnoise** should be equals to **True**. The default is **False**
